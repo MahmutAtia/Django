@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post"action="{{url_for('predict')}}">
+    <input name="x1" placeholder="enter x1" />
+    <input name="x2" placeholder="enter x2" />
+    <button type="submit"> Predict</button>
+</form>
+
+<h1> {{pre}}</h1>
+</body>
+</html>
